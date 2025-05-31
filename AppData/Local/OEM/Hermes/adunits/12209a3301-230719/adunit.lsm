@@ -1,0 +1,68 @@
+{
+  "data": {
+    "priority": "5",
+    "analytics": "",
+    "channel": "u+04pKMKt9ZwstxfubZyjbtfqNBFpMtdsOsOt/dku78N1cxQ",
+    "ended": "0",
+    "ts3000": "2025-01-15T12:55:38",
+    "ts3040": ""
+  },
+  "states": [
+    {
+      "state": 3000,
+      "status": "True",
+      "data": {
+        "logged": "1"
+      }
+    },
+    {
+      "state": 3010,
+      "status": "Unknown",
+      "data": {
+        "countdown": "3",
+        "logged": "0"
+      }
+    },
+    {
+      "state": 3020,
+      "status": "Unknown",
+      "data": {
+        "countdown": "10000",
+        "logged": "0"
+      }
+    },
+    {
+      "state": 3030,
+      "status": "Unknown",
+      "data": {
+        "countdown": "3",
+        "logged": "0"
+      }
+    },
+    {
+      "state": 3040,
+      "status": "Unknown",
+      "data": {
+        "countdown": "10000",
+        "logged": "0"
+      }
+    },
+    {
+      "state": 3050,
+      "status": "Unknown",
+      "data": {
+        "countdown": "10000",
+        "logged": "0"
+      }
+    },
+    {
+      "state": 3060,
+      "status": "Unknown",
+      "data": {
+        "countdown": "3",
+        "logged": "0"
+      }
+    }
+  ],
+  "index": 0
+}

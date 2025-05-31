@@ -1,0 +1,288 @@
+{
+  "data": [
+    {
+      "version": 3,
+      "aid": "ace200be00",
+      "bid": "220808",
+      "cls": "acer.oobe.w11",
+      "channel": "IEXZKCj0ADyO/gj86hOkAT2eCBul50/77Ezh6zL5ChvTJCj0",
+      "market": {
+        "incl": [
+          "US",
+          "CA",
+          "1L",
+          "FR",
+          "DE",
+          "GB",
+          "1N",
+          "RU",
+          "1E",
+          "AU",
+          "JP",
+          "KR",
+          "1A",
+          "CN",
+          "TW"
+        ],
+        "excl": []
+      },
+      "label": {
+        "incl": [],
+        "excl": [
+          "A007"
+        ]
+      },
+      "priority": 1,
+      "embargo": 0,
+      "arrival": 0,
+      "sampling": "0,100",
+      "analytics": "UA-119336999-18",
+      "retention": "UA-119336999-18"
+    },
+    {
+      "version": 3,
+      "aid": "ace200be02",
+      "bid": "220808",
+      "cls": "acer.oobe.dbx.7",
+      "channel": "ofAyHL8dg79fE7/+0/+vgy2u4RHBbeHwQC//MQ9yAKBSwC7h",
+      "market": {
+        "incl": [
+          "US",
+          "CA",
+          "1L",
+          "FR",
+          "DE",
+          "GB",
+          "1N",
+          "RU",
+          "1E",
+          "AU",
+          "JP",
+          "KR",
+          "1A",
+          "TW"
+        ],
+        "excl": [
+          "CN",
+          "CU",
+          "IR",
+          "KP",
+          "SD",
+          "SY",
+          "UA"
+        ]
+      },
+      "label": {
+        "incl": [],
+        "excl": []
+      },
+      "priority": 2,
+      "embargo": 0,
+      "arrival": 0,
+      "sampling": "0,100",
+      "analytics": "UA-119336999-5",
+      "retention": "UA-119336999-5"
+    },
+    {
+      "version": 3,
+      "aid": "12209a3301",
+      "bid": "230719",
+      "cls": "acer.wns.2",
+      "channel": "u+04pKMKt9ZwstxfubZyjbtfqNBFpMtdsOsOt/dku78N1cxQ",
+      "market": {
+        "incl": [
+          "US",
+          "DE",
+          "AT",
+          "CH",
+          "FR",
+          "GB",
+          "NL",
+          "IT",
+          "BR",
+          "MX",
+          "CA",
+          "TH",
+          "AU",
+          "JP"
+        ],
+        "excl": []
+      },
+      "label": {
+        "incl": [],
+        "excl": [
+          "A001"
+        ]
+      },
+      "priority": 5,
+      "embargo": 168,
+      "arrival": 0,
+      "sampling": "0,100",
+      "analytics": "",
+      "retention": ""
+    },
+    {
+      "version": 3,
+      "aid": "12209a3302",
+      "bid": "230719",
+      "cls": "acer.wns.2",
+      "channel": "TA9vU5sjgA8L5AMCG3Yb94bPx5Ln83aP5xsac06Lxy87F7qe",
+      "market": {
+        "incl": [
+          "US",
+          "DE",
+          "AT",
+          "CH",
+          "FR",
+          "GB",
+          "BR",
+          "MX",
+          "AU"
+        ],
+        "excl": []
+      },
+      "label": {
+        "incl": [],
+        "excl": [
+          "A001"
+        ]
+      },
+      "priority": 7,
+      "embargo": 168,
+      "arrival": 0,
+      "sampling": "0,100",
+      "analytics": "",
+      "retention": ""
+    },
+    {
+      "version": 3,
+      "aid": "b00f129603",
+      "bid": "240624",
+      "cls": "acer.wns.3",
+      "channel": "gZ06Bwg4/N43xwi4AxhHx1QATtVDj0ZBjFwHQxGIiIM9egi8",
+      "market": {
+        "incl": [
+          "US",
+          "CA",
+          "DE",
+          "AU",
+          "JP",
+          "KR",
+          "1A",
+          "1L",
+          "FR",
+          "GB",
+          "1N",
+          "1E"
+        ],
+        "excl": []
+      },
+      "label": {
+        "incl": [],
+        "excl": [
+          "A001"
+        ]
+      },
+      "priority": 5,
+      "embargo": 168,
+      "arrival": 0,
+      "sampling": "0,100",
+      "analytics": "",
+      "retention": ""
+    },
+    {
+      "version": 3,
+      "aid": "0de5a02e02",
+      "bid": "231002",
+      "cls": "amunds.opera.2",
+      "channel": "E6/y4lByEA7RgP3vvL8dg58/YB+/g95+Pf2vQvAeINGSHgAv",
+      "market": {
+        "incl": [
+          "DE",
+          "FR",
+          "PL",
+          "ES",
+          "IT",
+          "BR",
+          "MX",
+          "TR",
+          "IN",
+          "ID"
+        ],
+        "excl": []
+      },
+      "label": {
+        "incl": [],
+        "excl": [
+          "A001",
+          "A007"
+        ]
+      },
+      "priority": 5,
+      "embargo": 144,
+      "arrival": 0,
+      "sampling": "0,100",
+      "analytics": "",
+      "retention": ""
+    },
+    {
+      "version": 3,
+      "aid": "90091e2313",
+      "bid": "240502",
+      "cls": "acer.gpg.2",
+      "channel": "RqzENtRBVxwhfogg8tORqoB9yyfhqwg8Pnihm3v0MxCxEwPt",
+      "market": {
+        "incl": [
+          "US",
+          "CA",
+          "1L",
+          "FR",
+          "DE",
+          "GB",
+          "1N",
+          "1E",
+          "AU",
+          "JP",
+          "KR",
+          "1A",
+          "TW"
+        ],
+        "excl": [
+          "BN",
+          "AI",
+          "CU",
+          "DM",
+          "GP",
+          "GY",
+          "LC",
+          "MS",
+          "PR",
+          "VG",
+          "VI",
+          "VC",
+          "IR",
+          "AD",
+          "BY",
+          "ME"
+        ]
+      },
+      "label": {
+        "incl": [],
+        "excl": [
+          "A001",
+          "A007"
+        ]
+      },
+      "priority": 4,
+      "embargo": 0,
+      "arrival": 0,
+      "sampling": "0,100",
+      "analytics": "",
+      "retention": ""
+    }
+  ],
+  "ctrl": {
+    "error_code": "0",
+    "error_message": ""
+  }
+}

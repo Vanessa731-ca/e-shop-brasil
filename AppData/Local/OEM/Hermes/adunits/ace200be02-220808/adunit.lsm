@@ -1,0 +1,68 @@
+{
+  "data": {
+    "priority": "2",
+    "analytics": "UA-119336999-5",
+    "channel": "ofAyHL8dg79fE7/+0/+vgy2u4RHBbeHwQC//MQ9yAKBSwC7h",
+    "ended": "0",
+    "ts3000": "2025-01-15T12:55:37",
+    "ts3040": ""
+  },
+  "states": [
+    {
+      "state": 3000,
+      "status": "True",
+      "data": {
+        "logged": "1"
+      }
+    },
+    {
+      "state": 3010,
+      "status": "Unknown",
+      "data": {
+        "countdown": "3",
+        "logged": "0"
+      }
+    },
+    {
+      "state": 3020,
+      "status": "Unknown",
+      "data": {
+        "countdown": "10000",
+        "logged": "0"
+      }
+    },
+    {
+      "state": 3030,
+      "status": "Unknown",
+      "data": {
+        "countdown": "3",
+        "logged": "0"
+      }
+    },
+    {
+      "state": 3040,
+      "status": "Unknown",
+      "data": {
+        "countdown": "10000",
+        "logged": "0"
+      }
+    },
+    {
+      "state": 3050,
+      "status": "Unknown",
+      "data": {
+        "countdown": "10000",
+        "logged": "0"
+      }
+    },
+    {
+      "state": 3060,
+      "status": "Unknown",
+      "data": {
+        "countdown": "3",
+        "logged": "0"
+      }
+    }
+  ],
+  "index": 0
+}

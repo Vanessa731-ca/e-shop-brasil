@@ -1,0 +1,15 @@
+{
+  "version":3,
+  "aid":"ace200be00",
+  "bid":"220808",
+  "cls":"acer.oobe.w11",
+  "channel":"IEXZKCj0ADyO/gj86hOkAT2eCBul50/77Ezh6zL5ChvTJCj0",
+  "market":{"incl":["US","CA","1L","FR","DE","GB","1N","RU","1E","AU","JP","KR","1A","CN","TW"], "excl":[]},
+  "label":{"incl":[], "excl":["A007"]},
+  "priority":1,
+  "embargo":0,
+  "arrival":0,
+  "sampling":"0,100",
+  "analytics":"UA-119336999-18",
+  "retention":"UA-119336999-18"
+}

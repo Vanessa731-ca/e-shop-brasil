@@ -1,0 +1,19 @@
+services:
+  mongo:
+    image: mongo:4.4
+    container_name: mongo_eshop
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+  app:
+    build: .
+    container_name: eshop_app
+    ports:
+      - "8501:8501"
+    depends_on:
+      - mongo
+
+volumes:
+  mongo-data:
