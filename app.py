@@ -37,7 +37,7 @@ else:
     menu = st.sidebar.radio("Navegação", ["📋 Cadastrar", "📄 Visualizar Clientes", "📊 Dashboard"])
 
     # Conectar ao MongoDB
-    conn_str = "mongodb://localhost:27017/"
+    conn_str = "mongodb://mongo:27017/" 
     client = MongoClient(conn_str)
     db = client["eshop_banco"]
     colecao = db.clientes
