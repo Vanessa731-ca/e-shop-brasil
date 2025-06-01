@@ -1,0 +1,11 @@
+.gitignore
+
+# Ignorar a pasta de ambiente virtual
+venv/
+
+# Ignorar arquivos Python cache
+__pycache__/
+*.pyc
+
+# Ignorar o arquivo com credenciais
+.streamlit/secrets.toml
