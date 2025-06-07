@@ -76,14 +76,10 @@ eshop-bigdata-project/
     └── dados_ficticios.json (ou .csv)
 ```
 
-# Exemplos Visuais
-
-Prints ou GIFs do uso real da aplicação estão disponíveis na pasta `exemplos/`.
-
 # Considerações Finais
 
 Este projeto representa uma solução escalável e prática para empresas do setor de e-commerce que enfrentam os desafios do crescimento e da complexidade dos dados. Foi estruturado com foco em modularidade, reprodutibilidade e aplicação prática de conceitos aprendidos em aula.
 
 ---
 
-Desenvolvido por:Vanessa  Ferreira- 3º semestre de T.I.
+Desenvolvido por: Vanessa  Ferreira- 3º semestre de T.I.
