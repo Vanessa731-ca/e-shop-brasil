@@ -1,85 +1,89 @@
 
-# E-Shop Brasil: Aplicação de Big Data e Banco de Dados em E-commerce
+# E-Shop Brasil - Projeto de Big Data e Banco de Dados
 
-Este é um projeto acadêmico desenvolvido como parte do curso de Tecnologia da Informação na UNIFecaf. O estudo de caso propõe a criação de uma aplicação completa para gerenciar dados de clientes em uma empresa fictícia de comércio eletrônico chamada **E-Shop Brasil**, utilizando tecnologias modernas de banco de dados e big data.
+# Contexto
+A E-Shop Brasil é uma das maiores plataformas de comércio eletrônico do país, com mais de 5 milhões de clientes ativos e cerca de 100 mil pedidos processados por dia. Com esse volume, os desafios em relação à gestão de dados, personalização da experiência do cliente e otimização logística se tornam cada vez maiores.
 
-## 👨‍💻 Tecnologias Utilizadas
+Este projeto foi desenvolvido como aplicação prática para demonstrar como tecnologias como MongoDB, Streamlit, Docker e Big Data podem ajudar a resolver esses desafios.
 
-- `MongoDB` (banco de dados NoSQL)
-- `Docker` (containerização do ambiente)
-- `Streamlit` (aplicação web com interface interativa)
-- `Python` (lógica de programação)
-- `Pymongo` (conexão entre Python e MongoDB)
+# Objetivos do Projeto
 
-## ⚙️ Funcionalidades da Aplicação
+- Garantir segurança e privacidade dos dados dos clientes, conforme a LGPD.
+- Personalizar a navegação e recomendações usando dados de comportamento de usuários.
+- Melhorar a eficiência logística e controle de estoques, especialmente em regiões remotas.
+- Oferecer uma infraestrutura escalável, com tecnologias sustentáveis a longo prazo.
 
-- Cadastro de clientes
-- Busca de clientes por nome ou e-mail
-- Exclusão de clientes
-- Dashboard com gráficos de dados
-- Login de administrador 
-- Interface amigável via Streamlit
-- Publicação da aplicação na web
+#Tecnologias Utilizadas
 
-## 🚀 Como Executar o Projeto
+- `MongoDB` - Banco de dados NoSQL usado para armazenar dados estruturados e semi-estruturados.
+- `Streamlit` - Framework para visualização e interação com os dados via interface web.
+- `Docker` e `Docker Compose` - Para isolamento e padronização do ambiente de desenvolvimento.
+- `Python` - Linguagem usada na construção da aplicação.
+- `Faker` e/ou dados fictícios - Para simulação de cenários reais.
 
-### Pré-requisitos
+# Funcionalidades da Aplicação
 
-- Docker instalado na máquina
-- Git instalado
+A aplicação em `Streamlit` se conecta ao `MongoDB` e permite:
 
-### Passo a passo
+- Inserção de dados simulados no banco de dados.
+- Manipulação de dados (edição e exclusão).
+- Consulta e exibição dos dados cadastrados.
+- Visualização por meio de interface gráfica amigável.
+- Concatenação de dados de diferentes coleções.
 
-1. Clone este repositório:
+# Como Rodar o Projeto
+
+# Pré-requisitos
+
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+
+# Passo a Passo
+
+1. Clone o repositório:
 
 ```bash
-git clone https://github.com/Vanessa731-ca/e-shop-brasil
-```
-
-2. Navegue até a pasta do projeto:
-
-```bash
+git clone https://github.com/Vanessa731-ca/e-shop-brasil.git
 cd e-shop-brasil
 ```
 
-3. Suba o container com Docker Compose:
+2. Suba a infraestrutura:
 
 ```bash
 docker-compose up --build
 ```
 
-4. Acesse o app no navegador:
-
-Depois que o Docker subir tudo, acesse no navegador o endereço:
-
-```
-http://localhost:8501
+> Caso esteja utilizando `Dockerfile` individual:
+```bash
+docker build -t eshop-app .
+docker run -p 8501:8501 eshop-app
 ```
 
-## 📁 Estrutura do Projeto
+3. Acesse a aplicação:
 
-```plaintext
-📂 e-shop-brasil
-├── app.py               # Código principal da aplicação Streamlit
-├── Dockerfile           # Imagem Docker da aplicação
-├── docker-compose.yml   # Orquestração dos containers
-├── requirements.txt     # Dependências da aplicação
-├── .env                 # Variáveis de ambiente
-└── README.md            # Este arquivo
+Abra seu navegador e vá até: `http://localhost:8501`
+
+# Estrutura do Projeto
+
+```
+eshop-bigdata-project/
+├── README.md
+├── app.py
+├── docker-compose.yml  (ou Dockerfile)
+├── exemplos/
+│   └── gifs-ou-prints-do-app.png
+└── dados/
+    └── dados_ficticios.json (ou .csv)
 ```
 
-## 📝 Objetivo do Projeto
+# Exemplos Visuais
 
-O projeto foi desenvolvido com o objetivo de aplicar os conhecimentos de Banco de Dados, Big Data e Desenvolvimento Web adquiridos no curso de **Tecnologia da Informação da UNIFecaf**.
+Prints ou GIFs do uso real da aplicação estão disponíveis na pasta `exemplos/`.
 
-Ele simula uma solução real para uma empresa de e-commerce fictícia, mostrando como é possível integrar tecnologias modernas para gestão de dados, segurança, personalização da experiência do cliente e otimização logística.
+# Considerações Finais
 
-## 👩‍🏫 Informações Acadêmicas
+Este projeto representa uma solução escalável e prática para empresas do setor de e-commerce que enfrentam os desafios do crescimento e da complexidade dos dados. Foi estruturado com foco em modularidade, reprodutibilidade e aplicação prática de conceitos aprendidos em aula.
 
-- Aluna: **Vanessa de Souza Ferreira**  
-- Faculdade: **UNIFecaf**  
-- Tutor: **Vitor Jansen**
+---
 
-## 🌐 Link do Repositório
-
-🔗 [https://github.com/Vanessa731-ca/e-shop-brasil](https://github.com/Vanessa731-ca/e-shop-brasil)
+Desenvolvido por:Vanessa  Ferreira- 3º semestre de T.I.
